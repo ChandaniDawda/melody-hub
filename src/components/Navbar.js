@@ -1,11 +1,12 @@
 function Navbar() {
   return (
-    <div className="navbar bg-black text-white p-4 flex justify-between items-center shadow-lg ">
-      <h2 className="text-xl font-bold tracking-wide cursor-pointer hover:text-gray-300">🎵 Melody Hub</h2>
+    <div className="navbar bg-zinc-900 px-6 py-4 flex justify-between items-center shadow-md">
+      <h2 className="text-xl font-bold text-green-500">🎵 Melody Hub</h2>
         <div className="nav-links flex gap-6 items-center">
-            <span className="cursor-pointer hover:text-gray-400">Home</span>
-            <span className="cursor-pointer hover:text-gray-400">Playlist</span>
-            <span className="cursor-pointer hover:text-gray-400">Search</span>
+            <button className="cursor-pointer hover:text-gray-400">Home</button>
+            <button className="cursor-pointer hover:text-gray-400">Playlist</button>
+            <button className="cursor-pointer hover:text-gray-600 rounded-md p-2 text-black bg-white">Login</button>
+            <button className="cursor-pointer hover:text-gray-600 rounded-md p-2 text-black bg-white">Sign Up</button>
         </div>
     </div>
   );
